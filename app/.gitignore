@@ -1,0 +1,16 @@
+# Ignore python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Ignore dotenv configuration
+.env
+
+# Ignore python bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/

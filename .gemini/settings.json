@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "canva-dev": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@canva/cli@latest",
+        "mcp"
+      ]
+    },
+    "context7": {
+      "command": "npx",
+      "args": [
+        "@upstash/context7-mcp-server"
+      ]
+    }
+  }
+}
